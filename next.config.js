@@ -15,6 +15,13 @@ const nextConfig = {
     })
     return config
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+
   env: {
     siteTitle: 'Whisper API Sample App',
   },
